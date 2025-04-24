@@ -1,38 +1,37 @@
 # Pydantic Project
-
-Bu proje, Python'daki Pydantic kütüphanesini kullanarak veri doğrulama ve yapılandırma işlemlerini kolaylaştırmayı amaçlamaktadır. [Projenizin amacı ve ne yaptığı hakkında kısa bir açıklama ekleyin.]
-
-## Özellikler
-- [Özellik 1: Örneğin, "Hızlı ve güvenilir veri doğrulama"]
-- [Özellik 2: Örneğin, "Kullanıcı dostu yapılandırma yönetimi"]
-- [Özellik 3: Projenize özgü başka bir şey]
-
-## Kurulum
-
-Projenizi yerel ortamınıza kurmak için aşağıdaki adımları izleyin:
-
-1. Depoyu klonlayın:
-   ```bash
-   git clone https://github.com/Busradeveci/pydanticproject.git
-
-# Pydantic Project
-
-This project is built to simplify data validation and configuration management using the Pydantic library. It offers a fast, reliable, and user-friendly solution.
-
-```markdown
-# Pydantic Project
-
-This project aims to simplify data validation and configuration management using the Pydantic library in Python. [Add a brief description of your project's purpose and functionality.]
+This project is built to simplify data validation and configuration management using the Pydantic library in Python. It offers a fast, reliable, and user-friendly solution.
 
 ## Features
-- [Feature 1: e.g., "Fast and reliable data validation"]
-- [Feature 2: e.g., "User-friendly configuration management"]
-- [Feature 3: Something specific to your project]
+- Fast and reliable data validation
+- User-friendly configuration management
+- Custom feature specific to the project (Add your specific feature here)
 
 ## Installation
-
 To set up the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Busradeveci/pydanticproject.git
+   ```
+
+2. Create and activate a virtual environment:
+    - For MacOS/Linux:
+      ```bash
+      python -m venv venv
+      source venv/bin/activate
+      ```
+    - For Windows:
+      ```bash
+      python -m venv venv
+      venv\Scripts\activate
+      ```
+
+3. Install the dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. Run the application:
+    ```bash
+    python main.py
+    ```
